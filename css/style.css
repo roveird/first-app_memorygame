@@ -1,1 +1,26 @@
-test
+div#memory_board {
+ background:black;
+ border:#CD853F 7px solid;
+ width: 800px;
+ height: 600px;
+ padding: 24px;
+ margin: 0px auto;
+}
+
+/*styling for the back of the card so to do this we specify this rule (>) to target all child divs w/in the memory board */
+div#memory_board > div {
+ background: #FF3399;
+ background: url("../image/fitness.png") no-repeat;
+ border: #000 1px solid;
+ width: 128px;
+ height: 128px;
+ float: left;
+ margin: 15px;
+ padding: 20px;
+ font-size: 64px;
+ cursor: pointer;
+ text-align: center;
+}
+
+
+/*work on getting the image smaller so the whole icon and resize it center*/
