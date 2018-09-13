@@ -25,4 +25,8 @@ div#memory_board > div {
  background-size: cover;
 }
 
+.title {
+	text-align: center;
+}
+
 
