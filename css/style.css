@@ -20,7 +20,9 @@ div#memory_board > div {
  font-size: 64px;
  cursor: pointer;
  text-align: center;
+ /*next two css properties is to make the img resize/ center*/
+ background-position: center;
+ background-size: cover;
 }
 
 
-/*work on getting the image smaller so the whole icon and resize it center*/
