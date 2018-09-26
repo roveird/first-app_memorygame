@@ -10,7 +10,7 @@ div#memory_board {
 /*styling for the back of the card so to do this we specify this rule (>) to target all child divs w/in the memory board */
 div#memory_board > div {
  background: #FF3399;
- background: url("../image/fitness.png") no-repeat;
+ background: url("../img/fitness.png") no-repeat;
  border: #000 1px solid;
  width: 128px;
  height: 128px;
